@@ -1,10 +1,10 @@
 <template>
   <div class="blurb-container">
       <span class="blurb">
-        Someone once told me the key to a good website is a nice typeface and a lot of whitespace.*
+        Someone once told me the key to a good website is a nice typeface, heavy white space, and a touch of color.*
         <br>
         <br>
-        I do UX @ Google and studied ID @ RISD.
+        I am a UX Designer @ Google and studied ID @ RISD.
         Eventually this site will be cool and quirky but until then this will have to do.
       </span>
   </div>

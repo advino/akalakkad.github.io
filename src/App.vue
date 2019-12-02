@@ -8,6 +8,8 @@
      <br>
      <Links></Links>
    </div>
+
+   <Sketch></Sketch>
   </div>
 </template>
 
@@ -15,11 +17,12 @@
   import Blurb from "@/components/Blurb";
   import Title from '@/components/Title';
   import Links from '@/components/Links';
+  import Sketch from '@/components/Sketch';
 
   export default {
     name: 'app',
     components: {
-      Blurb, Title, Links      
+      Blurb, Title, Links, Sketch
     }
 }
 </script>
@@ -29,15 +32,17 @@ html,body {
   width: 100%;
   height: 100%;
 
-  padding: 0;
+  padding: 5px;
   margin: 0;
   box-sizing: border-box;
 
+  cursor: none;
 }
 
 .wrapper {
   width: 70%;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 #app {
@@ -47,7 +52,7 @@ html,body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 
   box-sizing: border-box;
 }

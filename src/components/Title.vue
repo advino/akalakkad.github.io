@@ -1,7 +1,7 @@
 <template>
   <div class="title-container">
       <span class="title">
-         A POEM...
+         SOME WISDOM...
       </span>
   </div>
 </template>
