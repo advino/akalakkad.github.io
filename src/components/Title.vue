@@ -1,7 +1,7 @@
 <template>
   <div class="title-container">
       <span class="title">
-         SOME WISDOM...
+         ADVAIT KALAKKAD*
       </span>
   </div>
 </template>

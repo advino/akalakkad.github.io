@@ -1,7 +1,7 @@
 <template>
   <div class="blurb-container">
       <span class="blurb">
-        Someone once told me the key to a good website is a nice typeface, heavy white space, and a touch of color.*
+        Someone once told me the key to a good website is a nice typeface, some heavy white space, and a touch of color.*
         <br>
         <br>
         I am a UX Designer @ Google and studied ID @ RISD.
@@ -35,8 +35,8 @@ export default {
 
     .blurb {
         width: 100%;
-        font-size: 46px;
+        font-size: 44px;
         font-family: Monument Grotesk;
-        line-height: 58px;
+        /* line-height: 58px; */
     }
 </style>
