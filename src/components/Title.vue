@@ -33,4 +33,28 @@ export default {
         font-family: Monument Grotesk;
         line-height: 58px;
     }
+
+       @media (max-width: 599px) {
+        .title {
+            font-size: 32px;
+        }
+    }
+
+    @media (min-width: 600px) {
+        .title {
+            font-size: 38px;
+        }
+    }
+
+    @media (min-width: 700px) {
+        .title {
+            font-size: 42px;
+        }
+    }
+
+     @media (min-width: 800px) {
+        .title {
+            font-size: 46px;
+        }
+    }
 </style>

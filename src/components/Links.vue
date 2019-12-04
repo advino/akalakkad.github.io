@@ -50,4 +50,40 @@ export default {
     span {
         text-decoration: none;
     }
+
+   @media (max-width: 499px) {
+       a {
+           width: 100%;
+           font-size: 16px;
+           display: block;
+       }
+
+       .links-container {
+           display: block;
+       }
+   }
+
+   @media (min-width: 500px) {
+        a {
+            font-size: 24px;
+        }
+    }
+
+    @media (min-width: 600px) {
+        a {
+            font-size: 26px;
+        }
+    }
+
+    @media (min-width: 700px) {
+        a {
+            font-size: 30px;
+        }
+    }
+
+    @media (min-width: 800px) {
+        a {
+            font-size: 33px;
+        }
+    }
 </style>
