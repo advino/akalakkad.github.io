@@ -24,7 +24,7 @@ export default {
 
     @font-face {
         font-family: Monument Grotesk;
-        src: url('/assets/monument-grotesk-regular.otf');
+        src: url('/assets/monument-grotesk-regular.otf') format('otf');
     }
 
     .blurb-container {
