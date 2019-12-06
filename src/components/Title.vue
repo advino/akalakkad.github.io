@@ -20,7 +20,7 @@ export default {
 
     @font-face {
         font-family: Monument Grotesk;
-        src: url('../assets/fonts/monument-grotesk-regular.otf') format('otf');
+        src: url('~@/assets/fonts/monument-grotesk-regular.otf') format('font-opentype');
     }
 
     .title-container {
