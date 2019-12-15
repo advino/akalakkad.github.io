@@ -30,7 +30,7 @@ export default {
 
     .title {
         font-size: 46px;
-        font-family: Monument Grotesk;
+        font-family: Roboto;
         line-height: 58px;
     }
 

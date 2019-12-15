@@ -41,7 +41,7 @@ html,body {
 
 .wrapper {
   width: 70%;
-    margin-top: 40px;
+  margin-top: 40px;
   box-sizing: border-box;
   z-index: 2;
 }
