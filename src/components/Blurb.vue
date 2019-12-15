@@ -35,8 +35,7 @@ export default {
     .blurb {
         width: 100%;
         font-size: 44px;
-        font-family: Monument Grotesk;
-        /* line-height: 58px; */
+        font-family: Arimo;
     }
 
     @media (max-width: 599px) {

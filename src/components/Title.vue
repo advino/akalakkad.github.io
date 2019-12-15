@@ -30,7 +30,7 @@ export default {
 
     .title {
         font-size: 46px;
-        font-family: Roboto;
+        font-family: Arimo;
         line-height: 58px;
     }
 

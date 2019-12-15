@@ -39,7 +39,7 @@ export default {
         border-radius: 60px;
         padding: 8px;
         
-        font-family: Monument Grotesk;
+        font-family: Arimo;
         font-size: 33px;
         color: black;
         text-decoration: none; 
