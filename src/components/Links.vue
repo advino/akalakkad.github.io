@@ -3,7 +3,7 @@
       <a href="https://www.are.na/advait-kalakkad">Are.na  ↗</a>
       <a href="https://github.com/akalakkad">Github  ↗</a>
       <a href="https://twitter.com/computerpolygl1">Twitter  ↗</a>
-      
+      <a href="">Work ↗</a>
   </div>
 </template>
 
