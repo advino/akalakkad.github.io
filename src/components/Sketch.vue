@@ -23,7 +23,7 @@ export default {
                 deltaX = 0;
                 deltaY = 0;
 
-                p5.noCursor();
+                // p5.noCursor();
             }
 
             p5.draw = () => {
@@ -55,8 +55,8 @@ export default {
 
 <style>
     #sketch {
-        width: 100vh;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         position: fixed;
         top: 0;
         left: 0;

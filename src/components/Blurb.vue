@@ -2,9 +2,6 @@
   <div class="blurb-container">
       <span class="blurb">
         Someone once told me the keys to a good website are a nice typeface, some heavy white space, and a touch of color.*
-        <br>
-        <br>
-        I am a UX Designer @ Google and got my BFA in Industrial Design @ RISD.
       </span>
   </div>
 </template>
