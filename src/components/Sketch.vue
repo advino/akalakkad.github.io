@@ -48,7 +48,7 @@ export default {
         }
 
         const P5 = require('p5');
-        let mySketch = new P5(sketch, "sketch");
+        new P5(sketch, "sketch");
     }
 }
 </script>

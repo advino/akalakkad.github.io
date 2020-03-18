@@ -6,7 +6,12 @@
      <Blurb></Blurb>
      <br>
      <br>
-     <Links></Links>
+    <div class="work-container">
+      <div class="workitem-wrapper">
+
+      </div>
+    </div>
+
    </div>
 
    <Sketch></Sketch>
@@ -16,13 +21,13 @@
 <script>
   import Blurb from "@/components/Blurb";
   import Title from '@/components/Title';
-  import Links from '@/components/Links';
+
   import Sketch from '@/components/Sketch';
 
   export default {
     name: 'app',
     components: {
-      Blurb, Title, Links, Sketch
+      Blurb, Title, Sketch
     }
 }
 </script>
