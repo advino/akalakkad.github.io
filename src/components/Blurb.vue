@@ -1,14 +1,20 @@
 <template>
   <div class="blurb-container">
       <span class="blurb">
-        Someone once told me the keys to a good website were a nice typeface, some heavy white space, and a touch of color
+          {{ text }}
       </span>
   </div>
 </template>
 
 <script>
 export default {
+    components: {},
+    props: ['text'],
+    data() {
+        return {
 
+        }
+    }
 }
 </script>
 
@@ -17,13 +23,14 @@ export default {
     .blurb-container {
         width: 100%;
         height: auto;
+
     }
 
     .blurb {
         width: 100%;
         font-size: 44px;
         font-family: Whyte;
-        font-weight: normal;
+        font-weight: light;
     }
 
     @media (max-width: 599px) {
