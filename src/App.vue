@@ -49,7 +49,7 @@
     data() {
       return {
         introBlurb: "Someone once told me the keys to a good website were a nice typeface, some heavy white space, and a touch of color",
-        outroBlurb: "Fumbling about, trying to make fun things and ask good questions. Reach out if you want to chat, or work on something together.",
+        outroBlurb: "Fumbling about, trying to make fun things and ask good questions. Reach out if you want to chat, or work on something together",
         work: [
           {
             title: "Mixed Signals",
@@ -131,7 +131,7 @@ html,body {
   padding: 5px;
   margin: 0;
   box-sizing: border-box;
-
+  background-color: white;
   /* cursor: none; */
 }
 

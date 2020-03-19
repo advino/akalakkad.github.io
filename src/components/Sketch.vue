@@ -61,7 +61,9 @@ export default {
         top: 0;
         left: 0;
         z-index: 0;
+        background-color: white;
         filter: blur(100px);
+    
     }
 
     canvas {
