@@ -1,7 +1,7 @@
 <template>
   <div class="title-container">
       <span class="title">
-         ADVAIT KALAKKAD*
+         ADVAIT KALAKKAD
       </span>
   </div>
 </template>
@@ -13,15 +13,6 @@ export default {
 </script>
 
 <style>
-    @font-face {
-        font-family: Prophet;
-        src: url('/assets/Prophet.otf');
-    }  
-
-    @font-face {
-        font-family: Monument Grotesk;
-        src: url('~@/assets/fonts/monument-grotesk-regular.otf') format('font-opentype');
-    }
 
     .title-container {
         width: 100%;
@@ -30,11 +21,12 @@ export default {
 
     .title {
         font-size: 46px;
-        font-family: Arimo;
+        font-family: Whyte Inktrap;
         line-height: 58px;
+        font-weight: normal;
     }
 
-       @media (max-width: 599px) {
+    @media (max-width: 599px) {
         .title {
             font-size: 32px;
         }

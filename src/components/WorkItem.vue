@@ -27,10 +27,15 @@ export default {
         width: 100%;
         height: auto;
         justify-content: space-between;
+        padding-top: 2.5px;
         color: black;
-        font-family: Arimo;
+        font-family: Whyte;
+        font-size: 16px;
+        font-weight: light;
         
-        font-size: 20px;
+        border-top-style: solid;
+        border-top-color: black;
+        border-top-width: 1px;
     }
 
     .workitem-container h3, h4 {

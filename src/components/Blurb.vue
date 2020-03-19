@@ -1,7 +1,7 @@
 <template>
   <div class="blurb-container">
       <span class="blurb">
-        Someone once told me the keys to a good website are a nice typeface, some heavy white space, and a touch of color.*
+        Someone once told me the keys to a good website were a nice typeface, some heavy white space, and a touch of color
       </span>
   </div>
 </template>
@@ -14,16 +14,6 @@ export default {
 
 <style>
 
-    @font-face {
-        font-family: Prophet;
-        src: url('/assets/Prophet.otf');
-    }  
-
-    @font-face {
-        font-family: Monument Grotesk;
-        src: url('~@/assets/fonts/monument-grotesk-regular.otf') format('font-opentype');
-    }
-
     .blurb-container {
         width: 100%;
         height: auto;
@@ -32,30 +22,35 @@ export default {
     .blurb {
         width: 100%;
         font-size: 44px;
-        font-family: Arimo;
+        font-family: Whyte;
+        font-weight: normal;
     }
 
     @media (max-width: 599px) {
         .blurb {
-            font-size: 30px;
+            font-size: 24px;
+            line-height: 28px;
         }
     }
 
     @media (min-width: 600px) {
         .blurb {
-            font-size: 36px;
+            font-size: 28px;
+            line-height: 32px;
         }
     }
 
     @media (min-width: 700px) {
         .blurb {
-            font-size: 40px;
+            font-size: 32px;
+            line-height: 36px;
         }
     }
 
      @media (min-width: 800px) {
         .blurb {
-            font-size: 44px;
+            font-size: 32px;
+            line-height: 38px;
         }
     }
 

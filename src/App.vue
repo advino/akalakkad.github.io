@@ -7,11 +7,16 @@
      <br>
      <br>
     <div class="work-container">
-      <h2 class="work-header">Selected Work</h2>
+      <h2 class="work-header">SELECTED WORK</h2>
       <div v-for="w in work" :key="w.title" class="workitem-wrapper">
         <WorkItem :title="w.title" :date="w.date"></WorkItem>
       </div>
-      
+    </div>
+    <div class="work-container">
+      <h2 class="work-header">OTHER</h2>
+      <div v-for="w in other" :key="w.title" class="workitem-wrapper">
+        <WorkItem :title="w.title" :date="w.date"></WorkItem>
+      </div>
     </div>
 
    </div>
@@ -47,11 +52,11 @@
             date: 2019
           },
           {
-            title: "Vanguard",
+            title: "Bad Design is Good Design When You Use AI",
             date: 2019
           },
           {
-            title: "When is Advait and Asshole?",
+            title: "When is Advait an Asshole?",
             date: 2019
           },
           {
@@ -62,6 +67,16 @@
             title: "Overlaying Realities",
             date: 2018
           }
+        ],
+        other: [
+          {
+            title: "A Window to Look Somwhere Else",
+            date: 2020
+          },
+          {
+            title: "My Dog Ate My Image Classifier",
+            date: 2019
+          }
         ]
       }
     }
@@ -69,6 +84,34 @@
 </script>
 
 <style>
+
+@font-face {
+  font-family: 'Whyte Inktrap';
+  src: url('~@/assets/fonts/WhyteInktrap-Medium.woff');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'Whyte Inktrap';
+  src: url('~@/assets/fonts/WhyteInktrap-Regular.woff2');
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'Whyte';
+  src: url('~@/assets/fonts/Whyte-Book.woff2');
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'Whyte';
+  src: url('~@/assets/fonts/Whyte-Light.woff');
+  font-weight: light;
+}
+
+
 html,body {
   width: 100%;
   height: 100%;
@@ -97,10 +140,15 @@ html,body {
   box-sizing: border-box;
 }
 
+.work-container {
+  margin-bottom: 60px;
+}
+
 .work-header {
-  font-size: 28px;
-  font-family: Arimo;
-  font-weight: 500;
+  font-size: 14px;
+  font-family: Whyte Inktrap;
+  font-weight: medium;
+  letter-spacing: 1px;
 }
 
 </style>
