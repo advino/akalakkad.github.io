@@ -3,7 +3,7 @@
    <div class="wrapper">
      <Title></Title>
      <br>
-     <Blurb></Blurb>
+     <Blurb :text="introBlurb"></Blurb>
      <br>
      <br>
     <div class="work-container">
@@ -18,7 +18,16 @@
         <WorkItem :title="w.title" :date="w.date"></WorkItem>
       </div>
     </div>
+    
+    <br>
+    <h2 class="work-header">ABOUT</h2>
+    <Blurb :text="outroBlurb"></Blurb>
 
+    <br>
+    <br>
+    <h2 class="work-header">LINKS</h2>
+    <Links></Links>
+   
    </div>
 
    <Sketch></Sketch>
@@ -30,14 +39,17 @@
   import Title from '@/components/Title';
   import WorkItem from '@/components/WorkItem';
   import Sketch from '@/components/Sketch';
+  import Links from '@/components/Links';
 
   export default {
     name: 'app',
     components: {
-      Blurb, Title, Sketch, WorkItem
+      Blurb, Title, Sketch, WorkItem, Links
     },
     data() {
       return {
+        introBlurb: "Someone once told me the keys to a good website were a nice typeface, some heavy white space, and a touch of color",
+        outroBlurb: "Fumbling about, trying to make fun things and ask good questions. Reach out if you want to chat, or work on something together.",
         work: [
           {
             title: "Mixed Signals",
@@ -124,7 +136,7 @@ html,body {
 }
 
 .wrapper {
-  width: 70%;
+  width: 80%;
   margin-top: 40px;
   box-sizing: border-box;
   z-index: 2;
