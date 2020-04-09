@@ -82,7 +82,7 @@
         ],
         other: [
           {
-            title: "A Window to Look Somwhere Else",
+            title: "A Window to Look Somewhere Else",
             date: 2020
           },
           {
